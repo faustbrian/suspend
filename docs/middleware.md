@@ -1,8 +1,3 @@
----
-title: Middleware
-description: Protect routes and handle suspended users with Suspend's built-in middleware.
----
-
 ## Available Middleware
 
 Suspend provides several middleware options:

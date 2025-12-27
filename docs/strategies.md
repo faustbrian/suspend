@@ -1,8 +1,3 @@
----
-title: Strategies
-description: Apply conditional logic to suspensions with time windows, geographic restrictions, IP-based rules, and device fingerprinting.
----
-
 ## Overview
 
 Strategies add conditional logic to suspensions. Instead of a simple on/off suspension, strategies evaluate conditions at check time to determine if the suspension is currently active.

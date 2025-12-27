@@ -1,8 +1,3 @@
----
-title: Configuration
-description: Configure Suspend's table names, resolvers, API keys, and middleware behavior.
----
-
 ## Publishing Configuration
 
 ```bash

@@ -1,8 +1,3 @@
----
-title: Events
-description: React to suspension lifecycle changes with Laravel events for notifications, logging, and cascading actions.
----
-
 ## Available Events
 
 | Event | Dispatched When |

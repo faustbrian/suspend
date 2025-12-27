@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Suspend is a flexible, context-aware suspension and banning system for Laravel with entity-based and pattern-matched suspensions, pluggable strategies, and geo resolvers.
----
-
 ## Requirements
 
 Suspend requires PHP 8.4+ and Laravel 11+.

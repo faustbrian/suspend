@@ -1,8 +1,3 @@
----
-title: Context Matching
-description: Suspend by patterns rather than specific entities - block email domains, IP ranges, phone prefixes, and more.
----
-
 ## Built-in Matchers
 
 Suspend includes these matchers out of the box:

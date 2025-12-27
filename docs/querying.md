@@ -1,8 +1,3 @@
----
-title: Querying
-description: Find and filter suspensions with Eloquent query scopes and the Suspend facade.
----
-
 ## Query Scopes
 
 The Suspension model includes several query scopes for common filtering needs.

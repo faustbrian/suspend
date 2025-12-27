@@ -1,8 +1,3 @@
----
-title: Entity Suspensions
-description: Suspend specific Eloquent models like users, accounts, or organizations with time-based controls and strategies.
----
-
 ## Basic Usage
 
 ### Suspending an Entity
