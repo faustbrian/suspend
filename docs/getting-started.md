@@ -140,10 +140,10 @@ This creates `config/suspend.php` where you can customize:
 
 ## Next Steps
 
-- [Entity Suspensions](/suspend/entity-suspensions/) - Deep dive into model-based suspensions
-- [Context Matching](/suspend/context-matching/) - Pattern-based suspension with matchers
-- [Strategies](/suspend/strategies/) - Conditional suspension strategies
-- [Middleware](/suspend/middleware/) - Protecting routes and handling suspended users
-- [Events](/suspend/events/) - Reacting to suspension lifecycle events
-- [Querying](/suspend/querying/) - Finding and filtering suspensions
-- [Configuration](/suspend/configuration/) - Full configuration reference
+- [Entity Suspensions](./entity-suspensions.md) - Deep dive into model-based suspensions
+- [Context Matching](./context-matching.md) - Pattern-based suspension with matchers
+- [Strategies](./strategies.md) - Conditional suspension strategies
+- [Middleware](./middleware.md) - Protecting routes and handling suspended users
+- [Events](./events.md) - Reacting to suspension lifecycle events
+- [Querying](./querying.md) - Finding and filtering suspensions
+- [Configuration](./configuration.md) - Full configuration reference

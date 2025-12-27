@@ -207,7 +207,7 @@ protected $listen = [
 ];
 ```
 
-See [Events](/suspend/events/) for detailed event handling.
+See [Events](./events.md) for detailed event handling.
 
 ## Querying Suspensions
 
@@ -233,4 +233,4 @@ $expiringSoon = Suspension::query()
     ->get();
 ```
 
-See [Querying](/suspend/querying/) for more query examples.
+See [Querying](./querying.md) for more query examples.
