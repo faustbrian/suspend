@@ -138,9 +138,11 @@ final class SuspendServiceProvider extends PackageServiceProvider
         }
 
         // Register Suspension model with VariableKeys
+        /** @var int|string $primaryKeyType */
+        $primaryKeyType = config('suspend.primary_key_type', 'id');
         VariableKeys::map([
             Suspension::class => [
-                'primary_key_type' => PrimaryKeyType::from(config('suspend.primary_key_type', 'id')),
+                'primary_key_type' => PrimaryKeyType::from($primaryKeyType),
             ],
         ]);
 
