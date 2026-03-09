@@ -1,13 +1,15 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Configuration (`docs/configuration.md`)
-3. Context Matching (`docs/context-matching.md`)
-4. Entity Suspensions (`docs/entity-suspensions.md`)
-5. Events (`docs/events.md`)
-6. Middleware (`docs/middleware.md`)
-7. Querying (`docs/querying.md`)
-8. Strategies (`docs/strategies.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Configuration](#doc-docs-configuration) (`docs/configuration.md`)
+3. [Context Matching](#doc-docs-context-matching) (`docs/context-matching.md`)
+4. [Entity Suspensions](#doc-docs-entity-suspensions) (`docs/entity-suspensions.md`)
+5. [Events](#doc-docs-events) (`docs/events.md`)
+6. [Middleware](#doc-docs-middleware) (`docs/middleware.md`)
+7. [Querying](#doc-docs-querying) (`docs/querying.md`)
+8. [Strategies](#doc-docs-strategies) (`docs/strategies.md`)
+<a id="doc-docs-readme"></a>
+
 ## Requirements
 
 Suspend requires PHP 8.4+ and Laravel 11+.
@@ -145,13 +147,15 @@ This creates `config/suspend.php` where you can customize:
 
 ## Next Steps
 
-- [Entity Suspensions](./entity-suspensions.md) - Deep dive into model-based suspensions
-- [Context Matching](./context-matching.md) - Pattern-based suspension with matchers
-- [Strategies](./strategies.md) - Conditional suspension strategies
-- [Middleware](./middleware.md) - Protecting routes and handling suspended users
-- [Events](./events.md) - Reacting to suspension lifecycle events
-- [Querying](./querying.md) - Finding and filtering suspensions
-- [Configuration](./configuration.md) - Full configuration reference
+- [Entity Suspensions](#doc-docs-entity-suspensions) - Deep dive into model-based suspensions
+- [Context Matching](#doc-docs-context-matching) - Pattern-based suspension with matchers
+- [Strategies](#doc-docs-strategies) - Conditional suspension strategies
+- [Middleware](#doc-docs-middleware) - Protecting routes and handling suspended users
+- [Events](#doc-docs-events) - Reacting to suspension lifecycle events
+- [Querying](#doc-docs-querying) - Finding and filtering suspensions
+- [Configuration](#doc-docs-configuration) - Full configuration reference
+
+<a id="doc-docs-configuration"></a>
 
 ## Publishing Configuration
 
@@ -474,6 +478,8 @@ return [
 ];
 ```
 
+<a id="doc-docs-context-matching"></a>
+
 ## Built-in Matchers
 
 Suspend includes these matchers out of the box:
@@ -751,6 +757,8 @@ Suspend::match('phone', '+1800*')->suspend('Toll-free number');
 Suspend::match('phone', '+1888*')->suspend('Toll-free number');
 ```
 
+<a id="doc-docs-entity-suspensions"></a>
+
 ## Basic Usage
 
 ### Suspending an Entity
@@ -955,7 +963,7 @@ protected $listen = [
 ];
 ```
 
-See [Events](./events.md) for detailed event handling.
+See [Events](#doc-docs-events) for detailed event handling.
 
 ## Querying Suspensions
 
@@ -981,7 +989,9 @@ $expiringSoon = Suspension::query()
     ->get();
 ```
 
-See [Querying](./querying.md) for more query examples.
+See [Querying](#doc-docs-querying) for more query examples.
+
+<a id="doc-docs-events"></a>
 
 ## Available Events
 
@@ -1321,6 +1331,8 @@ class HandleUserSuspension
     }
 }
 ```
+
+<a id="doc-docs-middleware"></a>
 
 ## Available Middleware
 
@@ -1673,6 +1685,8 @@ Route::middleware('api.protected')->prefix('api')->group(function () {
 });
 ```
 
+<a id="doc-docs-querying"></a>
+
 ## Query Scopes
 
 The Suspension model includes several query scopes for common filtering needs.
@@ -1965,6 +1979,8 @@ $results = Suspension::query()
     ->with(['context', 'suspendedBy'])
     ->paginate(25);
 ```
+
+<a id="doc-docs-strategies"></a>
 
 ## Overview
 
