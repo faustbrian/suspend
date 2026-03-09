@@ -1,13 +1,13 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Configuration](#doc-docs-configuration) (`docs/configuration.md`)
-3. [Context Matching](#doc-docs-context-matching) (`docs/context-matching.md`)
-4. [Entity Suspensions](#doc-docs-entity-suspensions) (`docs/entity-suspensions.md`)
-5. [Events](#doc-docs-events) (`docs/events.md`)
-6. [Middleware](#doc-docs-middleware) (`docs/middleware.md`)
-7. [Querying](#doc-docs-querying) (`docs/querying.md`)
-8. [Strategies](#doc-docs-strategies) (`docs/strategies.md`)
+1. [Overview](#doc-docs-readme)
+2. [Configuration](#doc-docs-configuration)
+3. [Context Matching](#doc-docs-context-matching)
+4. [Entity Suspensions](#doc-docs-entity-suspensions)
+5. [Events](#doc-docs-events)
+6. [Middleware](#doc-docs-middleware)
+7. [Querying](#doc-docs-querying)
+8. [Strategies](#doc-docs-strategies)
 <a id="doc-docs-readme"></a>
 
 ## Requirements
